@@ -12,6 +12,15 @@ The project employs ResNet50, a convolutional neural network, optimized for deep
 ## Experiments and Results
 Experiments were conducted with different learning rates and schedulers. The best performing model achieved a 93.36% accuracy using a learning rate of 0.001 and a cosine annealing scheduler. This highlights the effectiveness of fine-tuning learning parameters in deepfake detection.
 
+## Sample Results
+Here's a sample results of using the trained model for detecting deepfake faces from a real video and its deepfake counterpart.
+
+### Real Video
+![Sample Real Video](./assets/sample_real.gif)
+
+### Deepfake Video
+![Sample Deepfake Video](./assets/sample_df.gif)
+
 ## Conclusion
 The study demonstrates the capability of convolutional neural networks, specifically ResNet50, to detect deepfake videos with high accuracy. This contributes significantly to ongoing efforts in digital media integrity and misinformation combat.
 
